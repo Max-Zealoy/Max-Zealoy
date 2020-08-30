@@ -1,4 +1,7 @@
-@media (min-width: 1024px){
+
+
+
+@media (min-width: 1224px){
 .headertop {
     width: 1200px;
     height: auto;
@@ -6,6 +9,16 @@
     margin-right: 0px;
     position: relative;
 }
+
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  overflow: visible;
+  background: #fff url('../images/gif/crazy-horse/armyhorses.gif') no-repeat center center;
+}
+
 
 /*rezizes image size
 */
@@ -24,9 +37,13 @@ body {
 }
 
 .header-background {
-  padding: 59px;
+  height: 120px;
+    /* padding: 60px; */
+  width: auto;
   text-align: center;
   background: #24a6b3;
+  border-radius: 40px;
+
 }
 
 #main-container{
@@ -48,8 +65,8 @@ width: auto;
    box-sizing: border-box;
    width:auto;
    height: auto; 
-   margin-top: -118px;
-   margin-bottom: 16px;
+   margin-top: -120px;
+   
 }
 
 .menu-header {
@@ -71,22 +88,24 @@ ul {
     height: 100%;
     padding: 0;
     overflow: hidden;
-    
+    margin-left:100px;
     
   }
   
+
+
+
   li {
     float: left;
     font-style: monospace;
     width: 0px;
-    
+    text-align: end;
   
   }
   
   
   li a {
     width: 0px;
-    height: auto;
     position: relative;
     display: block;
     color: #fbff01;
@@ -97,8 +116,9 @@ ul {
     animation: move 2s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
-    list-style-position: inside;
-    
+    height: 96px;
+    border-radius: 80px;
+    font-variant: all-small-caps;
 
     
   }
@@ -142,7 +162,7 @@ ul {
   overflow: hidden; 
   opacity: 1;
   position: relative;
-  margin-top: -120px;
+  margin-top: -90px;
     animation: fly 2s;
     animation-delay: 2s;
     animation-fill-mode: forwards;
@@ -152,19 +172,25 @@ ul {
 /*animations spaceship*/
 @keyframes fly {
   0%  {opacity: 1;left:0px; top:0px;}
-  99%  {opacity: 1;left:1650px; top:-20px;}
-  100% {left:2050px; top:-20px; overflow: hidden; opacity: 0; display: none; visibility: hidden;}
+  99%  {opacity: 0.01;left:1650px; top:-20px;}
+  100% {top:-20px; overflow: hidden; opacity: 0; display: none; visibility: hidden;}
 }
 /*Footer from here on */
 
-  .footer {
+  .footer_stripe {
     position: relative;
-    display: inline-block;
+    display: block;
     width: 100%;
     height: 100px;
-    box-sizing: border-box;
+    background:gray;
+
 }
 
+.footer_stripe p{
+
+  text-align: center;
+  padding-top: 40px;
+}
 
 }
 
