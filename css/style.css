@@ -1,7 +1,6 @@
 
 
 
-@media (min-width: 1000px) {
     .headertop {
         width: auto;
         height: auto;
@@ -620,7 +619,6 @@ float: right;
     z-index: 1;
     position: relative;
     width: 100%;
-    float: ;
     margin: 44% 20px 1% 2%;
     top: -60px;
     
@@ -653,9 +651,7 @@ float: right;
 
 }
 
-}
-@media (min-width: 1000px) {
-    
+
    
     /*rezizes image size
 */
@@ -710,5 +706,19 @@ float: right;
             border-radius: 80px;
             font-variant: all-small-caps;
         }
+    
+        @media (max-width: 1550px) {
+           
+            #aboutme {
+                height: 700px;
+                margin: 120px 95px 10px 0px;
+                float: right;
+            }
+           
+           
+            #aboutme img {
+                height: 700px;
+            }
 
         }
+    
