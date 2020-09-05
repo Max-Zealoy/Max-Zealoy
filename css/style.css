@@ -696,7 +696,7 @@ float: right;
             font-variant: all-small-caps;
         }
     
-        @media (max-width: 1550px) {
+        @media (max-width: 1618px) {
            
             #aboutme {
                 height: 400px;
@@ -758,6 +758,33 @@ float: right;
     z-index: 0;
 }
 
+
+/*animations */
+@keyframes move {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 300px;
+    }
+}
+.li2 img {
+    width: 100px;
+    height: auto;
+}
+
+
+@keyframes space {
+0% {
+    font-size: 48px;
+}
+
+100% {
+    font-size: 50px;
+}
             }
+
+        }
         
         
