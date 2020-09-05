@@ -53,17 +53,6 @@
     }
 
 
-    /*rezizes image size
-*/
-    .headertop img {
-      
-        width: 40%;
-        height: auto;
-        padding-left: 400px;
-        margin-bottom: -3px;
-        margin-top: -200px;
-    }
-
     /*Change css of body*/
     body {
         font-family: 'Tangerine', serif;
@@ -570,6 +559,7 @@ float: right;
 .section-port img{
 
     max-width: 100%;
+    height: 300px;
     height: auto;
     border:2px solid #fff;
     -moz-box-shadow: 10px 10px 5px #7396af;
@@ -584,8 +574,8 @@ float: right;
 
 .section-port-img img{
 
-    width: 350px;
-    height: 250px;
+    width: 100%;
+    height: 300px;
 
 }
 
@@ -595,7 +585,7 @@ float: right;
     font-size: x-large;
     font-family: monospace;
     position: relative;
-    width: 330px;
+    width: 90%;
     background-color: #f0f8ff6e;
 }
     
@@ -606,7 +596,7 @@ float: right;
 
 #workbox{
     position: relative;
-    width: 100%;
+    width: 85%;
     height: auto;
     left: 10%;
   
@@ -644,7 +634,7 @@ float: right;
 }
 
 .section-port-web-img img{
-    width: 1500px;
+    width: 90%;
     height: auto;
     margin: auto;
     position: relative;
@@ -710,15 +700,65 @@ float: right;
         @media (max-width: 1550px) {
            
             #aboutme {
-                height: 700px;
-                margin: 120px 95px 10px 0px;
+                height: 400px;
+                margin: 80px 320px 295px 314px;
                 float: right;
             }
            
            
             #aboutme img {
-                height: 700px;
+                height: auto;
+                width: 480px;
+                margin: auto;
             }
 
-        }
-    
+       .headertop img {
+        
+            width: 120px;
+            height: auto;
+            padding-left: 400px;
+            margin-left: 1200px;
+            margin-bottom: -3px;
+            margin-top: -174px;
+}
+
+#aboutmetext {
+    width: 75%;
+    bottom: 17px;
+    padding-top: 60px;
+    float: none;
+    position: relative;
+    margin: auto;
+
+}           
+#bodyabout {
+    margin-bottom: 1000px;
+}
+
+.section-port-web {
+    display: block;
+    z-index: 1;
+    position: relative;
+    width: 92%;
+    margin: 40% 0% 10% 3%;
+    top: -60px;
+}
+
+.section-port-web-img img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+#workbox {
+    position: relative;
+    width: 81%;
+    height: auto;
+    left: 10%;
+    z-index: 0;
+}
+
+            }
+        
+        
