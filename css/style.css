@@ -785,6 +785,16 @@ float: right;
 }
             }
 
+            @media (max-width: 1220px) {       
+            .header-background {
+                height: 230px;
+                /* padding: 60px; */
+                width: auto;
+                text-align: center;
+                background: #24a6b3;
+                border-radius: 40px;
+                position: static;
+            }
         }
         
-        
+    }
