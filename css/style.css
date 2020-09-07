@@ -795,6 +795,31 @@ float: right;
                 border-radius: 40px;
                 position: static;
             }
+
+            /*animations */
+@keyframes move {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 300px;
+    }
+}
+.li2 img {
+    width: 100px;
+    height: auto;
+}
+
+
+@keyframes space {
+0% {
+    font-size: 30px;
+}
+
+100% {
+    font-size: 40px;
+}
         }
         
     }
